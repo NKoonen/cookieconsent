@@ -264,8 +264,8 @@ The script is being controlled mainly by a configuration object which is passed 
     consentModeControls: {
       ad_storage: 'necessary',
       ad_user_data: 'necessary',
-      ad_personalization: 'necessary'
-      analytics_storage: 'necessary'
+      ad_personalization: 'necessary',
+      analytics_storage: 'necessary',
     },
     // whether consent mode updates will be handled by gtag or via custom GTM template. The value by default is null. Can have 'gtag' or 'gtm-template' values.
     consentModeHandler: 'gtm-template'
